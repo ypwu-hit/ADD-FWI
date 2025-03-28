@@ -2,6 +2,9 @@ ADD-FWI
 ---------
 This repo contains a PyTorch implementation with [Deepwave](https://ausargeo.com/deepwave/) for the paper How does Neural Network Reparametrization Improve Geophysical Inversion? which is published on the Journal of Geophysical Research: Machine Learning and Computation.
 
+
+![NN-FWI](/images/Figure1.pdf)
+
 Abstract
 ---------
 Full waveform inversion (FWI) is a high-resolution seismic inversion technique and great efforts have been made to mitigate the multi-solution problem, such as the traditional total variation (TV) regularization.
