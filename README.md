@@ -4,7 +4,7 @@ This repo contains a PyTorch implementation with [Deepwave](https://ausargeo.com
 
 <center>
 ![NN-FWI](/images/NN-FWI.svg) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="/images/ADD-FWI.jpg" width="600" height="300">
-<center>
+</center>
 
 Abstract
 ---------
