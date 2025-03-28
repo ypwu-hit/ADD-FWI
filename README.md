@@ -3,7 +3,7 @@ ADD-FWI
 This repo contains a PyTorch implementation with [Deepwave](https://ausargeo.com/deepwave/) for the paper How does Neural Network Reparametrization Improve Geophysical Inversion? which is published on the Journal of Geophysical Research: Machine Learning and Computation.
 
 
-<img src="/images/NN-FWI.svg" width="350" height="400"> &nbsp; <img src="/images/ADD-FWI.jpg" width="500" height="250">
+![](\images\Figure1.svg)
 
 
 Abstract
