@@ -5,9 +5,9 @@ This repo contains a PyTorch implementation with [Deepwave](https://ausargeo.com
 Abstract
 ---------
 Full waveform inversion (FWI) is a high-resolution seismic inversion technique and great efforts have been made to mitigate the multi-solution problem, such as the traditional total variation (TV) regularization.
-Different from traditional regularization, a new regularization design approach named neural network reparametrization (\emph{Deep Image Prior}) was presented recently. 
+Different from traditional regularization, a new regularization design approach named neural network reparametrization (*Deep Image Prior*) was presented recently. 
 The existing neural network parametrization-based FWI (NN-FWI) was implemented using an over-parametrization framework.
-On the contrary, we adopt an under-parameterized framework \emph{Deep Decoder} (DD) and propose a new under-parameterized neural network regularization framework, so-called \emph{Attention Deep Decoder} (ADD). 
+On the contrary, we adopt an under-parameterized framework *Deep Decoder* (DD) and propose a new under-parameterized neural network regularization framework, so-called *Attention Deep Decoder* (ADD). 
 Further applying DD and ADD to seismic inversion, we propose DD-FWI and ADD-FWI, a new formulation of NN-FWI that uses an under-parameterised network to represent the velocity model in FWI and minimizes an objective function over the network parameters.
 Inspired from this formulation, NN reparametrization can be a model-domain multiscale strategy and the interpolation operator is the key component to regularize the inversion.
 Besides, we discover the potential relationship between interpolation-based reparametrization, traditional TV regularization and wavelet transform from the mathematical aspect.
