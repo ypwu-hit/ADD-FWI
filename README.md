@@ -72,8 +72,7 @@ nt = 2000
 dt = 0.002               # time interval (e.g., 2ms)
 peak_time = 1.0 / freq   # the time (in secs) of the peak amplitude
 ```
-Then, run the following script to generate dataset and implement FWIs, NN-FWIs, WDP-FWIs, etc. 
-```data_generate.ipynb``` and ```data_generate_streamer_acquisition.ipynb```
+Then, run ```data_generate.ipynb``` and ```data_generate_streamer_acquisition.ipynb``` to generate dataset for FWIs, NN-FWIs, WDP-FWIs, etc. 
 The initla model, source amplitude, and observed data are saved in the result path. Next, run the following script to implement FWI, NN-FWIs, WDP-FWIs, etc.
 ```
 cd ./ADD-FWI/NN-FWIs/ADD-FWI/
