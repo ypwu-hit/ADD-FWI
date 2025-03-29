@@ -31,3 +31,15 @@ deepwave 0.0.20
 pytorch-msssim 1.0.0
 ```
 
+Run the code
+-----------
+Enter the ADD-FWI folder
+```
+cd ./ADD-FWI/
+```
+Correct the parameter settings and data path in ```ParamConfig.py``` and ```PathConfig.py```
+
+
+
+
+If you have any questions about this work, feel free to contract us: ypwu@stu.hit.edu.cn
