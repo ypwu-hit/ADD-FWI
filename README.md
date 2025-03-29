@@ -35,11 +35,53 @@ Run the code
 -----------
 Enter the ADD-FWI folder
 ```
-cd ./ADD-FWI/
+cd ./ADD-FWI/sesimic-data-generate/
 ```
-Correct the parameter settings and data path in ```ParamConfig.py``` and ```PathConfig.py```
+Correct the parameter settings and data path in ```data_generate.ipynb``` and ```data_generate_streamer_acquisition.ipynb```
+e.g.
+```
+####################################################
+####                   FILENAMES               ####
+####################################################
+data_path = ''
+ny = 340
+nx = 130
+v_true = torch.from_file(data_path+'mar_big_vp_130_340.bin',
+                    size=ny * nx).reshape(ny, nx)
+```
+and
+```
+####################################################
+####   MAIN PARAMETERS FOR FORWARD MODELING         ####
+####################################################
+dx = 22.5                # step interval along x/z direction
+n_shots = 30             # total number of source
 
+n_sources_per_shot = 1   # number of sources per shot 
+d_source = 11            # step interval of source
+first_source = 5         # the first position of source
+source_depth = 1         # the depth position of source
 
+n_receivers_per_shot = 339 # number of receiver 
+d_receiver = 1           # step interval of receiver
+first_receiver = 0       # the first position of receiver
+receiver_depth = 1       # the depth position of receiver
+
+freq = 7                 # central frequency
+nt = 2000
+dt = 0.002               # time interval (e.g., 2ms)
+peak_time = 1.0 / freq   # the time (in secs) of the peak amplitude
+```
+Then, run the following script to generate dataset and implement traditional FWI, NN-FWIs, WDP-FWIs, etc. 
+```data_generate.ipynb``` and ```data_generate_streamer_acquisition.ipynb```
+The initla model, source amplitude, and observed data are saved in the result path. Next, run the following script to implement FWI, NN-FWIs, WDP-FWIs, etc.
+Enter the ADD-FWI folder
+```
+cd ./ADD-FWI/NN-FWIs/ADD-FWI/
+```
+```
+python train.py
+```
 
 
 If you have any questions about this work, feel free to contract us: ypwu@stu.hit.edu.cn
