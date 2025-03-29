@@ -82,5 +82,16 @@ cd ./ADD-FWI/NN-FWIs/ADD-FWI/
 python train.py
 ```
 
+Results
+----------
+Outputs can be found in ```/ADD-FWI/images/...```.
+### Visual examples
+#### 1. Marmousi2 Model:
+![Inversion results of DD-FWI.](/images/Figure2.svg)
+
+#### 2. Marmousi2 Model:
+![Inversion results of NN-FWIs.](/images/Figure3.svg)
+
+
 
 If you have any questions about this work, feel free to contract us: ypwu@stu.hit.edu.cn
