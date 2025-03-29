@@ -14,3 +14,20 @@ On the contrary, we adopt an under-parameterized framework *Deep Decoder* (DD) a
 Plain Language Summary
 ---------
 Seismic inversion solved by FWI is a nonlinear and ill-posed inverse problem, which suffers from local minima and multiple solution issues. Great efforts have been made, such as multiscale inversion strategy, misfit function modification and regularization techniques. A new regularization formulation for FWI implemented by an over-parametrization deep neural network (DNN) framework was proposed, which couples advanced DNN techniques to impose regularization effect into the inversion process. However, it is not clear enough what components play a key regularizing role for inversion and provide what kind of regularization effects. We propose an under-parametrization regularization framework for FWI, realizing that this reparametrization can be seen as a model-domain multiscale strategy and the interpolation operator offers a key regularization effect. Therefore, this framework updates the model (e.g., velocity) using the gradient with frequency bias and regularizes the update with proximity similarity, which mitigates the cycle skipping and constraints the solution space.
+
+Prerequisites
+---------
+'''
+python 3.10.13  
+torch 2.1.1+cu121
+torchaudio 2.1.1+cu121
+torchvision 0.16.1+cu121
+scipy 1.11.4
+numpy 1.24.1
+matplotlib 3.8.2
+scikit-image 0.25.0
+einops 0.7.0
+deepwave 0.0.20
+pytorch-msssim 1.0.0
+'''
+
