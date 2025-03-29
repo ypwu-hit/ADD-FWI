@@ -17,7 +17,7 @@ Seismic inversion solved by FWI is a nonlinear and ill-posed inverse problem, wh
 
 Prerequisites
 ---------
-'''
+```
 python 3.10.13  
 torch 2.1.1+cu121
 torchaudio 2.1.1+cu121
@@ -29,5 +29,5 @@ scikit-image 0.25.0
 einops 0.7.0
 deepwave 0.0.20
 pytorch-msssim 1.0.0
-'''
+```
 
