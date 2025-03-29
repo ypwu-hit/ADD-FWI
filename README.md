@@ -85,11 +85,11 @@ python train.py
 Results
 ----------
 Outputs can be found in ```/ADD-FWI/images/...```.
-### Visual examples
-#### 1. Marmousi2 Model:
+### Marmousi2 Model
+#### 1. Inversion results of DD-FWI under streamer acquisition:
 ![Inversion results of DD-FWI.](/images/Figure2.svg)
 
-#### 2. Marmousi2 Model:
+#### 2. Inversion results of NN-FWIs:
 ![Inversion results of NN-FWIs.](/images/Figure3.svg)
 
 
