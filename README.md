@@ -91,6 +91,17 @@ Outputs can be found in ```/ADD-FWI/images/...```.
 #### 2. Inversion results of NN-FWIs:
 ![Inversion results of NN-FWIs.](/images/Figure3.svg)
 
-
+Citation
+-----------
+If you find the paper and the code useful in your research, please cite the paper:
+```
+@article{wu2025nnfwi,
+  title={How does Neural Network Reparametrization Improve Geophysical Inversion?},
+  author={Wu, Yuping and Ma, Jianwei},
+  journal={Journal of Geophysical Research: Machine Learning and Computation},
+  year={2025},
+  publisher={Wiley Online Library}
+}
+```
 
 If you have any questions about this work, feel free to contract us: ypwu@stu.hit.edu.cn
