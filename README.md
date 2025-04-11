@@ -103,6 +103,7 @@ If you find the paper and the code useful in your research, please cite the pape
   author={Wu, Yuping and Ma, Jianwei},
   journal={Journal of Geophysical Research: Machine Learning and Computation},
   year={2025},
+  doi={10.1029/2025JH000621},
   publisher={Wiley Online Library}
 }
 ```
