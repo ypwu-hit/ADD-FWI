@@ -98,12 +98,14 @@ Citation
 -----------
 If you find the paper and the code useful in your research, please cite the paper:
 ```
-@article{wu2025nnfwi,
-  title={How does Neural Network Reparametrization Improve Geophysical Inversion?},
+@article{wu2025does,
+  title={How Does Neural Network Reparametrization Improve Geophysical Inversion?},
   author={Wu, Yuping and Ma, Jianwei},
   journal={Journal of Geophysical Research: Machine Learning and Computation},
+  volume={2},
+  number={2},
+  pages={e2025JH000621},
   year={2025},
-  doi={10.1029/2025JH000621},
   publisher={Wiley Online Library}
 }
 ```
