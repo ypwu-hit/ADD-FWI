@@ -80,6 +80,9 @@ The initla model, source amplitude, and observed data are saved in the result pa
 ```
 cd ./ADD-FWI/NN-FWIs/ADD-FWI/
 ```
+
+Correct the parameter settings and data path in ```data_loader.py``` and ```train.py``` as you did in the data generation.
+
 ```
 python train.py
 ```
